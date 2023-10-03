@@ -52,7 +52,8 @@ public class finish_task {
         }
         writeString += "\n";
 
-        String fileName = "D:/Python/! New Lesson/Exeptions/finish_task_exeptions/BD/" + userInputString[0] + ".txt";
+        //String fileName = "D:/Python/! New Lesson/Exeptions/finish_task_exeptions/BD/" + userInputString[0] + ".txt";
+        String fileName = "BD/" + userInputString[0] + ".txt";
         File file = new File(fileName);
         FileWriter fileWriter = new FileWriter(file, true);
         fileWriter.write(writeString);
